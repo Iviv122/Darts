@@ -12,8 +12,8 @@ function Roll(){
     posY = Array(howManyAnswers).fill(0);
     
     for(let i=0;i<howManyAnswers;i++){
-        posX[i] = getRandom(-20,40);
-        posY[i] = getRandom(-20,40);
+        posX[i] = getRandom(-20,20);
+        posY[i] = getRandom(-20,20);
     }
     
 
